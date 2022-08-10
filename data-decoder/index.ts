@@ -1,11 +1,13 @@
 import express from "express";
 import { PORT } from "./constants";
 import { decodeData, initDecoder } from "./decoder";
+import { initContract } from "./web3";
 
 const app = express();
 
 app.use(express.json());
 
+initContract();
 initDecoder();
 
 app.get("/", (req, res) => {
