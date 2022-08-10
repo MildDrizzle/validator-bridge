@@ -18,5 +18,9 @@ app.post("/", (req, res) => {
   const data = decodeData(req.body.data);
   res.send({ data});
 });
+app.post("/addToken", (req, res) => {
+  const data = decodeData(req.body.data);
+  res.send({ data});
+});
 
 app.listen(PORT);
