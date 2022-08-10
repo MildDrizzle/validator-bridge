@@ -6,3 +6,8 @@ Platform for analyzing EVM blockchain transactions in order to identify potentia
 
 ## Machine Learning analysis of transactions
 In order to analyze blockchain transactions machine learning is being used, specifically the ML.NET SDK. Since the platform tries to predict one of two classes (fraudulent or not), binary classification algorithms should be used. One of the most commonly used algorithms for such tasks is **Fast Tree**, which is an implementation of so called MART (Multiple Additive Regression Trees) algorithm.
+
+### Steps invloved in the machine learning analysis
+- Prepare train transactions data set (where each record is clearly marked as fraudulent or not)
+- Create the ML model
+- Run transactions through the model
