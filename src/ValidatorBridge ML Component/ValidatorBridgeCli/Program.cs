@@ -73,7 +73,7 @@ public class Program
         mlContext.Model.Save(trainedModel, trainingDataView.Schema, ModelPath);
         Console.WriteLine("");
         Console.WriteLine("");
-        Console.WriteLine("=============== Model Saved ============= ");
+        Console.WriteLine("=============== Model Saved =============\n");
     }
 
     public static string GetAbsolutePath(string relativePath)
