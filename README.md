@@ -10,4 +10,4 @@ In order to analyze blockchain transactions machine learning is being used, spec
 ### Steps invloved in the machine learning analysis
 - Prepare train transactions data set (where each record is clearly marked as fraudulent or not)
 - Create the ML model
-- Run transactions through the model
+- Run test transactions through the model
